@@ -1,0 +1,47 @@
+.developers {
+background-color: #000;
+height: 70vh;
+}
+
+.developers .container {
+    max-width: 1140px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.developers .left {
+    background-color: #000;
+    color: #f8f8f8;
+    margin: auto;
+    padding: 1rem;
+}
+
+.developers .right {
+    background-color: #000;
+}
+
+.img-container {
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.developers img {
+    width: 250px;
+    box-shadow: 0px 0px 12px var(--primary-blue);
+}
+
+@media screen and (max-width:940px) {
+    .developers .container {
+        flex-direction: column;
+    }
+
+    .developers .right {
+        margin: 3rem 0;
+    }
+}

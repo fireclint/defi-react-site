@@ -1,0 +1,56 @@
+.subscribe {
+    background-color: rgba(0,0,0,.8);
+    color: #f8f8f8;
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    padding: 1rem;
+}
+
+.subscribe:before {
+    content: '';
+    background: url('../../assets/subscribe.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.subscribe .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.subscribe .form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.subscribe input {
+    padding: .7rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 50px;
+}
+
+.subscribe input[type='checkbox'] {
+    margin-right: .5rem;
+}
+
+
+@media screen and (max-width: 495px) {
+    .subscribe .display-col {
+        flex-direction: column;
+    }
+}
+
+

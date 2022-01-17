@@ -1,0 +1,43 @@
+.footer {
+    width: 100%;
+    background-color: #000;
+    color: #f8f8f8;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.footer .container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.footer h4 {
+    display: inline-block;
+    border-bottom: 3px solid var(--primary-blue);
+    padding-bottom: .2rem;
+}
+
+.footer .col p {
+    margin: 1rem 0;
+}
+
+@media screen and (max-width: 940px) {
+    .footer .container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer h4 {
+        margin-top: 2rem;
+    }
+}
+
+
+
+
+
+
+
+
