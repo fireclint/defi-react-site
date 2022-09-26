@@ -15,9 +15,9 @@ const hero = () => {
         </h1>
         <p>Secure trading communications on a private network.</p>
         <div className="btn-group">
-          <button className="btn">Connect</button>
+          <button className="btn">COMING SOON</button>
           {/* <button className="btn btn-outline">Documentation</button> */}
-          <button className="btn btn-outline">FAQ</button>
+          {/* <button className="btn btn-outline">FAQ</button> */}
         </div>
       </div>
       <div className="bottom-text">
