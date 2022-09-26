@@ -11,11 +11,11 @@ const hero = () => {
       <div className="hero-text">
         <h1>Decentralized</h1>
         <h1>
-          <span className="blue">Trading</span> Communications Protocol
+          <span className="blue">Trading</span> Protocol
         </h1>
         <p>Secure trading communications on a private network.</p>
         <div className="btn-group">
-          <button className="btn">Connect</button>
+          <button className="btn">COMING SOON</button>
           {/* <button className="btn btn-outline">Documentation</button> */}
           {/* <button className="btn btn-outline">FAQ</button> */}
         </div>
