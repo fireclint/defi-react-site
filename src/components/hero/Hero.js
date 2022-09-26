@@ -17,7 +17,7 @@ const hero = () => {
         <div className="btn-group">
           <button className="btn">Connect</button>
           {/* <button className="btn btn-outline">Documentation</button> */}
-          <button className="btn btn-outline">FAQ</button>
+          {/* <button className="btn btn-outline">FAQ</button> */}
         </div>
       </div>
       <div className="bottom-text">

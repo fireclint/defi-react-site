@@ -25,11 +25,11 @@ const Navbar = () => {
           <li className="nav-item">
             <a href="/">About</a>
           </li> */}
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a className="btn" href="/">
               Connect
             </a>
-          </li>
+          </li> */}
         </ul>
         <div onClick={handleClick} className="hamburger">
           {click ? (
