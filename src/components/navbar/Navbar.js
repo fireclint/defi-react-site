@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="container">
-        <h1 style={{ marginLeft: "1rem", color: "#00d8ff" }}>
+        <h1 style={{ marginLeft: "1rem", color: "#9e9e9e" }}>
           METEOR INVESTMENTS
         </h1>
         <ul className={click ? "nav active" : "nav"}>

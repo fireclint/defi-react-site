@@ -11,7 +11,7 @@ const hero = () => {
       <div className="hero-text">
         <h1>Decentralized</h1>
         <h1>
-          <span className="blue">Trading</span> Protocol
+          <span className="blue">Trading</span> Communications Protocol
         </h1>
         <p>Secure trading communications on a private network.</p>
         <div className="btn-group">
