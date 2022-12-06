@@ -8,20 +8,25 @@ const hero = () => {
       <video autoPlay loop muted id="video">
         <source src={MainVideo} type="video/mp4" />
       </video>
-      <div className="hero-text">
-        <h1>Decentralized</h1>
+      
+      <div className="hero-text">       
+      <img src="https://i.imgur.com/geviJ3R.png" width="1250" height="1250">  
+      </img>
+      
+        <h1>PRIVATE</h1>
         <h1>
-          <span className="blue">Trading</span> Protocol
+          <span className="blue">TRADING COMMUNITY</span>
         </h1>
-        <p>Secure trading communications on a private network.</p>
+        <p></p>
         <div className="btn-group">
-          <button className="btn">COMING SOON</button>
+          <button className="btn">CONNECT</button>
           {/* <button className="btn btn-outline">Documentation</button> */}
           {/* <button className="btn btn-outline">FAQ</button> */}
         </div>
+        {/*<button className="btn"> ???</button>*/}
       </div>
       <div className="bottom-text">
-        {/* <h2>Total Volume Secured: $42,104,783,662.47</h2> */}
+        {/* <button className="btn"> Total Volume Secured: $42,104,783,662.47</button>*/}
       </div>
     </div>
   );
