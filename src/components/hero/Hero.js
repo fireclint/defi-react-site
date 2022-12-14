@@ -9,14 +9,15 @@ const hero = () => {
         <source src={MainVideo} type="video/mp4" />
       </video>     
       <div className="hero-text">
-      <img src="https://i.imgur.com/9TwiW05.png" width="500" height="500">  
+      <img src="https://i.imgur.com/9TwiW05.png" width="700" height="700">  
       </img>             
         <h1>PRIVATE</h1>
         <h1>
           <span className="blue">TRADING COMMUNITY</span>
         </h1>
         <div className="btn-group">
-          <button className="btn">CONNECT</button>
+          
+          <a href="https://discord.gg/gjCAj72kFT"></a> <button className="btn">CONNECT</button>
           {/* <button className="btn btn-outline">Documentation</button> */}
           {/* <button className="btn btn-outline">FAQ</button> */}
         </div>
