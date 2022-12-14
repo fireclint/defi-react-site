@@ -9,7 +9,7 @@ const hero = () => {
         <source src={MainVideo} type="video/mp4" />
       </video>     
       <div className="hero-text">
-      <img src="https://i.imgur.com/9TwiW05.png" width="800" height="800">  
+      <img src="https://i.imgur.com/9TwiW05.png" width="500" height="500">  
       </img>             
         <h1>PRIVATE</h1>
         <h1>
