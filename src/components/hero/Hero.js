@@ -7,17 +7,14 @@ const hero = () => {
     <div className="hero">
       <video autoPlay loop muted id="video">
         <source src={MainVideo} type="video/mp4" />
-      </video>
-      
-      <div className="hero-text">       
-      <img src="https://i.imgur.com/geviJ3R.png" width="1250" height="1250">  
-      </img>
-      
-        <h1>PRIVATE</h1>
-        <h1>
-          <span className="blue">TRADING COMMUNITY</span>
-        </h1>
-        <p></p>
+      </video>     
+      <div className="hero-text">
+      <img src="https://i.imgur.com/9TwiW05.png" width="800" height="800">  
+      </img>             
+      {/*<h1>PRIVATE</h1>*/}
+       {/*<h1>
+        {/*  <span className="blue">TRADING COMMUNITY</span>*/}
+        {/*</h1>*/}
         <div className="btn-group">
           <button className="btn">CONNECT</button>
           {/* <button className="btn btn-outline">Documentation</button> */}
