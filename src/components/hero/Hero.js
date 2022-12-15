@@ -9,8 +9,7 @@ const hero = () => {
       autoPlay 
       loop muted id="video">
         <source 
-        src={MainVideo}
-        controls= "controls" 
+        src={MainVideo} 
         type="video/mp4"/>
       </video>     
       <div className="hero-text">
