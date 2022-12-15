@@ -7,11 +7,10 @@ const hero = () => {
     <div className="hero">
       <video 
       autoPlay 
-      controls preload= "auto" 
       loop muted id="video">
         <source 
         src={MainVideo}
-        controls= "controls"
+        controls= "controls" 
         type="video/mp4"/>
       </video>     
       <div className="hero-text">
