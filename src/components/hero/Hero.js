@@ -5,8 +5,14 @@ import "./Hero.css";
 const hero = () => {
   return (
     <div className="hero">
-      <video autoPlay loop muted id="video">
-        <source src={MainVideo} type="video/mp4" />
+      <video 
+      autoPlay 
+      controls preload= "auto" 
+      loop muted id="video">
+        <source 
+        src={MainVideo}
+        controls= "controls"
+        type="video/mp4"/>
       </video>     
       <div className="hero-text">
       <img src="https://i.imgur.com/9TwiW05.png" width="700" height="700">  
